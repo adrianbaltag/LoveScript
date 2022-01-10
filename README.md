@@ -1,6 +1,6 @@
 <!-- ******GENERAL**************** -->
-
-primary-color: #6d0019;
+#6d0019
+primary-color: #6d0019 ;
 tints(darker): #620017, #570014
 shades(lighter): #f0e6e8 #e2ccd1 #a76675
 font-family: Great Vibes(title), sans-serif, Poppins
