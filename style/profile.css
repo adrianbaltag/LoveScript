@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: auto;
+  }
+  body {
+    background-image: linear-gradient(to bottom, #6d0019, #93424a, #b5777e, #d3aeb3, #f0e6e8);
+    height: 100%;
+  }
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Poppins', sans-serif; */
+  /* ****************navbar************************************* */
+  nav {
+    background-color: rgba(87, 0, 20, 0.527);
+    height: 4em;
+    z-index: 1;
+  }
+  .navbar-brand {
+    color: #F0E6E8 !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  /* logo nav-anim */
+  .heart-logo {
+    animation: heart 3s linear infinite;
+    width: 1em;
+    height: 1em;
+  }
+  @keyframes heart {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* ****** */
+  /* nav links anim *************************/
+  .nav-link {
+    color: #F0E6E8 !important;
+    font-size: 1.2em;
+    letter-spacing: 0.75px;
+    transition: all 0.3s !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  .nav-link:hover {
+    color: #F0E6E8 !important;
+    font-size: 1.2em;
+    letter-spacing: 0.75px;
+    text-decoration: overline !important ;
+    transform: scaleY(1.4);
+  }
+  .container {
+    height: 100vh !important;
+  }
+  .title {
+    margin-top: -.9em;
+  }
+  .myLabel {
+    margin-top: -1.2em;
+  }
+  h1, h3, p {
+    font-family: 'Poppins', sans-serif;
+    color: #f0e6e8;
+  }
+  .info {
+    margin-top: 1.5em;
+    line-height: .8;
+  }
+  .aboutMe {
+    background-color: #6d0019;
+    opacity: .7;
+    text-align: center;
+    border-radius: 1em;
+    border-top: #f0e6e8;
+    border-left: #f0e6e8;
+    line-height: 1.5;
+    padding: 1em;
+    margin-top: 3em;
+  }
+  .about-title {
+    font-family: 'Great Vibes', cursive;
+    text-decoration: underline;
+  }
+  .about-par {
+    text-align: start;
+  }
+  .message {
+    width: 8em;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #6d0019;
+    color: #f0e6e8;
+    transition: all .3s;
+    margin-bottom: 2em;
+  }
+  .message:hover{
+    width: 8em;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #f0e6e8;
+    color: #6d0019;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
