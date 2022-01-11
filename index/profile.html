@@ -1,27 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/profile.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
     <title>Hello, world!</title>
   </head>
   <body>
-
     <!-- Navigation -->
-    
-    <header >
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"
           >&lt;Love /Script&gt;
           <img
@@ -49,22 +62,37 @@
             >
             <a class="nav-item nav-link" href="match.html">match</a>
             <a class="nav-item nav-link" href="search.html">search</a>
-            <a class="nav-item nav-link" href="testimonials.html">testimonials</a>
+            <a class="nav-item nav-link" href="testimonials.html"
+              >testimonials</a
+            >
           </div>
         </div>
       </nav>
     </header>
 
     <!-- profile -->
-    
+
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="../img/profile-img/girl11 640x515.jpg" class="img-fluid mt-3" id="profile" alt="Jane" width="300" height="300">
+          <img
+            src="../img/profile-img/girl11 640x515.jpg"
+            class="img-fluid mt-3"
+            id="profile"
+            alt="Jane"
+            width="300"
+            height="300"
+          />
           <h1>Jane Doe</h1>
           <p class="title">Los Angeles, CA</p>
-          <p class="myLabel">Javascript Queen</p>   
-          <p><button class="message">Message</button></p>
+          <p class="myLabel">Javascript Queen</p>
+
+          <a id="btn-hidden" href="mailto:fbaltag83@gmail.com"
+            ><button class="message bg-success">Message</button></a
+          >
+          <button id="btn-show" class="message" onclick="getAlert()">
+            Message
+          </button>
         </div>
         <div class="col-md-4 info" id="info">
           <h3>Info</h3>
@@ -79,24 +107,54 @@
           <div class="aboutMe">
             <h3 class="about-title">About me</h3>
             <p class="about-par">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, placeat um iste soluta ipsa maxime earum rem illum 
-              mollitia velit tenetur et. Beatae aliquam fugit soluta, ducimus recusandae voluptatem autem fugit soluta, ducimus recusandae. 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+              placeat um iste soluta ipsa maxime earum rem illum mollitia velit
+              tenetur et. Beatae aliquam fugit soluta, ducimus recusandae
+              voluptatem autem fugit soluta, ducimus recusandae.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div style="font-family:'Open Sans';" class="w-100 text-center p-2">
-      
-      Made by <b>( Group 3</b> <a href="https://github.com/adrianbaltag/LoveScript" target="_blank">| Github</a> )
-              </div>
-
+    <div style="font-family: 'Open Sans'" class="w-100 text-center p-2">
+      Made by <b>( Group 3</b>
+      <a href="https://github.com/adrianbaltag/LoveScript" target="_blank"
+        >| Github</a
+      >
+      )
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function getAlert() {
+        let btnHidden = document.getElementById("btn-hidden");
+        let btnShow = document.getElementById("btn-show");
+        let r = confirm("Someone wants to connect with you!");
+        if (r == true) {
+          console.log("this is working");
+          btnHidden.style.display = "block";
+          btnShow.style.display = "none";
+        } else {
+          console.log("not working");
+        }
+      }
+    </script>
   </body>
 </html>
