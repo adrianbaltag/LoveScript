@@ -113,5 +113,32 @@ nav {
 }
 
 .us {
-  margin-top: 5em;
+  margin-top: 4em;
+}
+
+@media only screen and (max-width: 480px) {
+  .us {
+    margin-top: 1em;
+    color: #f0e6e8;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    height: 100vh !important;
+  }
+  .us {
+    margin-top: 1em;
+    color: #f0e6e8;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    height: 100vh !important;
+  }
+  .us {
+    margin-top: 1em;
+    color: #6d0019;
+  }
 }
