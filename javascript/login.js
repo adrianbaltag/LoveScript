@@ -159,9 +159,9 @@ function matchWithRegEx(regEx, field, message) {
 }
 // login btn NOT WORKING PROPERLY
 document.getElementById("myBtn").onclick = function () {
-  if ((firstName, password)) {
-    location.href = "#";
+  if (validateFirstName() === true && validatePassword() === true) {
+    location.href = "profile.html";
   } else {
-    alert("error");
+    return false;
   }
 };

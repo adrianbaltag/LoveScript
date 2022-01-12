@@ -1,74 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-  }
-  
-  body {
-    width: auto;
-    background-image: url(../img/bg-img/bg-login1920x1080.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden !important;
-  }
-  
-  label {
-    color: #f0e6e8 !important;
-    font-size: 1.4em;
-
-
-  }
-
-  h1 {
-    color: #f0e6e8;
-
-  }
-
-  .btn {
-    background-color: #F0E6E8;
-    color: #6D0019;
-    font-weight: 600;
-    border-radius: 2em;
-    transition: all ease .3s;
-    font-size: 1.8em;
-}
-.btn:hover, .btn:active {
-    background-color: #6D0019;
-    color: #F0E6E8;
-    font-weight: 600;
-    border-radius: 2em;
-}
-.btn, .btn-large, .btn-small {
-    text-decoration: none;
-    color: #6D0019;
-    background-color: #F0E6E8!important;
-    text-align: center;
-    letter-spacing: .5px;
-    -webkit-transition: background-color .2s ease-out;
-    transition: background-color .2s ease-out;
-    cursor: pointer;
-}
-.btn:hover, .btn-large:hover, .btn-small:hover {
-    text-decoration: none;
-    color: #F0E6E8;
-    background-color: #6D0019 !important;
-    text-align: center;
-    letter-spacing: .5px;
-    -webkit-transition: background-color .2s ease-out;
-    transition: background-color .2s ease-out;
-    cursor: pointer;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
+body {
+  width: auto;
+  background-image: url(../img/bg-img/bg-login1920x1080.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden !important;
+}
 
+label {
+  color: #f0e6e8 !important;
+  font-size: 1.4em;
+}
 
+h1 {
+  color: #f0e6e8;
+}
 
-
-
-
-
-
-
+.btn {
+  background-color: #f0e6e8;
+  color: #6d0019;
+  font-weight: 600;
+  border-radius: 2em;
+  transition: all ease 0.3s;
+  font-size: 1.8em;
+  margin-right: 0.3em;
+}
+.btn:hover,
+.btn:active {
+  background-color: #6d0019;
+  color: #f0e6e8;
+  font-weight: 600;
+  border-radius: 2em;
+}
+.btn,
+.btn-large,
+.btn-small {
+  text-decoration: none;
+  color: #6d0019;
+  background-color: #f0e6e8 !important;
+  text-align: center;
+  letter-spacing: 0.5px;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  text-decoration: none;
+  color: #f0e6e8;
+  background-color: #6d0019 !important;
+  text-align: center;
+  letter-spacing: 0.5px;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+}
