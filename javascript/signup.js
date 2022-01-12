@@ -192,14 +192,15 @@ function matchWithRegEx(regEx, field, message) {
 }
 // login btn NOT WORKING PROPERLY
 document.getElementById("myBtn").onclick = function () {
-  if(validateFirstName() && validateLastName() && validatePassword() && validateConfirmPassword() && validateEmail())  {
-   location.href = "testimonials.html";
-   
-  
+  if (
+    validateFirstName() &&
+    validateLastName() &&
+    validatePassword() &&
+    validateConfirmPassword() &&
+    validateEmail()
+  ) {
+    location.href = "profileSubmit.html";
   } else {
-    location.href = "signup.html";
+    return false;
   }
-  
-
-}; 
-
+};

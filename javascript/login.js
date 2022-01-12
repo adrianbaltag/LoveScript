@@ -167,7 +167,7 @@ document.getElementById("myBtn").onclick = function () {
 };
 
 // signup btn
-const changePg = document.getElementById("changePg");
+// document.getElementById("changePg");
 function myFunction() {
   location.href = "signup.html";
 }
