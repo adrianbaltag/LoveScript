@@ -194,7 +194,16 @@
           <br />
         </div>
         <div class="col-md-12">
-          <button type="submit" class="btn btn-dark">Create profile</button>
+          <a href="profile.html"
+            ><button
+              id="btn-create"
+              type="submit"
+              class="btn btn-dark"
+              onclick="changePg()"
+            >
+              Create profile
+            </button></a
+          >
         </div>
       </form>
     </div>
@@ -223,5 +232,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function changePg() {
+        location.href = "profile.html";
+      }
+    </script>
   </body>
 </html>

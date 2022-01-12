@@ -9,6 +9,7 @@
 body {
   width: auto;
   background-image: url(../img/bg-img/bg-login1920x1080.jpg);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,6 +17,14 @@ body {
   overflow-x: hidden !important;
 }
 
+main {
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgba(240, 230, 232, 0.705) 0%,
+    rgba(109, 0, 25, 0.739) 100%
+  );
+}
 label {
   color: #f0e6e8 !important;
   font-size: 1.4em;

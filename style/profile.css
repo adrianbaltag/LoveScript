@@ -97,6 +97,7 @@ p {
 .about-title {
   font-family: "Great Vibes", cursive;
   text-decoration: underline;
+  font-size: 3em;
 }
 .about-par {
   text-align: start;
@@ -118,4 +119,9 @@ p {
 
 #btn-hidden {
   display: none;
+}
+
+.us {
+  margin-top: 7em;
+  margin-bottom: 10em;
 }
