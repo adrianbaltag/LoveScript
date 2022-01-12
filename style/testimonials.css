@@ -134,6 +134,7 @@ figure {
 
 .us {
   color: #f0e6e8;
+  margin-top: 1em;
 }
 /* ****media query******************* */
 
@@ -166,6 +167,10 @@ figure {
   .emoticon {
     font-size: 1.4em;
   }
+  .us {
+    color: #f0e6e8;
+    margin-top: 1em !important;
+  }
 }
 
 /* @media only screen and (max-width: 768px) {
@@ -178,6 +183,17 @@ figure {
     letter-spacing: 0.75px;
     transition: all 0.3s !important;
     font-family: "Poppins", sans-serif;
+  }
+  .us {
+    color: #f0e6e8;
+    margin-top: 12em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .us {
+    color: #f0e6e8;
+    margin-top: 15em;
   }
 }
 
@@ -197,5 +213,9 @@ figure {
     line-height: 1.2;
     font-size: 1.2em;
     font-family: "Poppins", sans-serif;
+  }
+  .us {
+    color: #f0e6e8;
+    margin-top: 14em;
   }
 }
