@@ -46,14 +46,14 @@
     <!-- form -->
 
     <div class="container mt-5">
-      <form class="row g-3">
+      <form id="createForm" class="row g-3">
         <div class="col-md-6">
           <label for="firstName" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="firstName" required />
+          <input type="text" class="form-control" id="firstName" />
         </div>
         <div class="col-md-6">
           <label for="lastName" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="lastName" required />
+          <input type="text" class="form-control" id="lastName" />
         </div>
         <div class="col-md-6">
           <label for="gender" class="form-label" required>Gender:</label>
@@ -100,18 +100,11 @@
             id="city"
             name="city"
             maxlength="20"
-            required
           />
         </div>
         <div class="col-md-6">
           <label for="state" class="form-label">State:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="state"
-            name="state"
-            required
-          />
+          <input type="text" class="form-control" id="state" name="state" />
         </div>
         <div class="col-md-6">
           <label for="hobby" class="form-label">Hobby:</label>
@@ -178,12 +171,7 @@
         </div>
         <div class="col-md-12">
           <label for="aboutMe" class="form-label">About me:</label>
-          <textarea
-            class="form-control"
-            id="aboutMe"
-            rows="5"
-            required
-          ></textarea>
+          <textarea class="form-control" id="aboutMe" rows="5"></textarea>
           <br />
         </div>
         <div class="col-md-6">
@@ -194,16 +182,14 @@
           <br />
         </div>
         <div class="col-md-12">
-          <a href="profile.html"
-            ><button
-              id="btn-create"
-              type="submit"
-              class="btn btn-dark"
-              onclick="changePg()"
-            >
-              Create profile
-            </button></a
+          <button
+            id="btn-create"
+            type="submit"
+            class="btn btn-dark"
+            onclick="changePg()"
           >
+            Create Profile
+          </button>
         </div>
       </form>
     </div>
@@ -232,10 +218,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function changePg() {
-        location.href = "profile.html";
-      }
-    </script>
+    <script src="../javascript/profileSubmit.js"></script>
   </body>
 </html>

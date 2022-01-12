@@ -190,7 +190,7 @@ function matchWithRegEx(regEx, field, message) {
     return false;
   }
 }
-// login btn NOT WORKING PROPERLY
+// login btn  WORKING PROPERLY
 document.getElementById("myBtn").onclick = function () {
   if (
     validateFirstName() &&

@@ -31,6 +31,10 @@ nav {
   font-size: 2em;
   font-weight: 400;
 }
+
+.collapse {
+  background-color: rgba(109, 0, 25, 0.431);
+}
 /* logo nav-anim */
 .heart-logo {
   animation: heart 3s linear infinite;
@@ -103,18 +107,24 @@ p {
   text-align: start;
 }
 .message {
-  width: 8em;
+  width: 10em;
+  height: 3em;
   border-radius: 0px 15px 0px 15px;
   background-color: #6d0019;
   color: #f0e6e8;
   transition: all 0.3s;
   margin-bottom: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 .message:hover {
-  width: 8em;
+  width: 10em;
+  height: 3em;
   border-radius: 0px 15px 0px 15px;
   background-color: #f0e6e8;
   color: #6d0019;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 #btn-hidden {
@@ -124,4 +134,11 @@ p {
 .us {
   margin-top: 7em;
   margin-bottom: 10em;
+}
+
+@media only screen and (min-width: 768px) {
+  .us {
+    margin-top: -8em;
+    margin-bottom: 10em;
+  }
 }
