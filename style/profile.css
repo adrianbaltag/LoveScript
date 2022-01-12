@@ -134,6 +134,7 @@ p {
 .us {
   margin-top: 7em;
   margin-bottom: 10em;
+  color: #6d0019;
 }
 
 @media only screen and (min-width: 768px) {
