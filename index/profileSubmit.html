@@ -17,17 +17,20 @@
     />
 
     <link rel="stylesheet" href="../style/profileSubmit.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>LoveScript</title>
   </head>
-  
+
   <!-- Navbar -->
-  
+
   <body>
-    <header >
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"
           >&lt;Love /Script&gt;
           <img
@@ -37,130 +40,172 @@
             width="100"
             height="100"
         /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mx-auto">
-            <a class="nav-item nav-link active" href="profile.html"
-              >profile <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="match.html">match</a>
-            <a class="nav-item nav-link" href="search.html">search</a>
-            <a class="nav-item nav-link" href="testimonials.html">testimonials</a>
-          </div>
-        </div>
       </nav>
     </header>
 
- <!-- form -->
+    <!-- form -->
 
-<div class="container mt-3">
-  <form class="row g-3">
-    <div class="col-md-6">
-      <label for="firstName" class="form-label">First Name</label>
-      <input type="text" class="form-control" id="firstName" required>
-    </div>
-    <div class="col-md-6">
-      <label for="lastName" class="form-label">Last Name</label>
-      <input type="text" class="form-control" id="lastName" required>
-    </div>
-    <div class="col-md-6">
-      <label for="gender" class="form-label" required>Gender:</label>
-      <input type="radio" id="male" name="gender" value="male"/>Male
-      <input type="radio" id="female" name="gender" value="female"/>Female
-      <input type="radio" id="other" name="gender" value="other"/>Other
-    </div>
-    <div class="col-md-6">
-      <label for="interestedIn" class="form-label" required>Interested In:</label>
-      <input type="radio" id="male" name="gender" value="male"/>Male
-      <input type="radio" id="female" name="gender" value="female"/>Female
-      <input type="radio" id="other" name="gender" value="other"/>Other
-    </div>
-    <div class="col-md-6">
-      <label for="dob" class="form-label">Date Of Birth:</label>
-      <input type="Date" class="form-control" id="dob" name="dob">
-    </div>
-    <div class="col-md-6">
-      <label for="ethnicity" class="form-label" required >Ethnicity:</label>
-      <select name="ethnicity" class="form-control" id="ethnicity">
-        <option value=" ">Select your ethnicity:</option>
-        <option value="White">White</option>
-        <option value="Black">Black, African American</option>
-        <option value="Hispanic">Hispanic, Latino, or Spanish origin</option>
-        <option value="American Indian">American Indian or Alaska Native</option>
-        <option value="Asian">Asian</option>
-        <option value="Native Hawaiian">Native Hawaiian or Other Pacific Islander</option>
-        <option value="Other">Other</option>
-      </select>
-    </div>
-    <div class="col-md-6">
-      <label for="city" class="form-label">City:</label>
-      <input type="text" class="form-control" id="city" name="city" maxlength="20" required>
-    </div>
-    <div class="col-md-6">
-      <label for="state" class="form-label">State:</label>
-      <input type="text" class="form-control" id="state" name="state" required>
-    </div>
-    <div class="col-md-6">
-      <label for="hobby" class="form-label">Hobby:</label>
-      <input type="text" class="form-control" id="hobby" name="hobby" maxlength="20">
-    </div>
-    <div class="col-md-6">
-      <label for="Occupation" class="form-label">Occupation:</label>
-      <input type="text" class="form-control" id="Occupation" name="Occupation" maxlength="20">
-    </div>
-    <div class="col-md-6">
-      <label for="myLabel" class="form-label" required >My Label:</label>
-      <select name="myLabel" class="form-control" id="myLabel">
-        <option value=" ">Select your label:</option>
-        <option value="JavaScript King">JavaScript King</option>
-        <option value="JavaScript Queen">JavaScript Queen</option>
-        <option value="CSS PRINCE">CSS PRINCE</option>
-        <option value="CSS PRINCESS">CSS PRINCESS</option>
-        <option value="SCRUM MAGE">SCRUM MAGE</option>
-      </select>
-    </div>
-    <div class="col-md-6">
-      <label for="specialization" class="form-label">Specialization:</label><br>
-      <input type="checkbox" class="specialization" id="cs" name="specialization[]" value="Computer Science">Computer Science<br/>
-      <input type="checkbox" class="specialization" id="it" name="specialization[]" value="Information Technology">Information Technology<br/>
-      <input type="checkbox" class="specialization" id="ca" name="specialization[]" value="Computer Architecture">Computer Architecture<br/>
-      <input type="checkbox" class="specialization" id="uiux" name="specialization[]" value="UI UX">UI/UX<br/>
-    </div>
-    <div class="col-md-12">
-      <label for="aboutMe" class="form-label">About me:</label>
-      <textarea class="form-control" id="aboutMe" rows="5" required></textarea>
-      <br>
-    </div>
-    <div class="col-md-6">
-      <label for="img" class="form-label">Profile Picture:</label>
-      <input type="file" id="img" name="img" accept="image/*">
-      <input type="submit">
-      <br>
-      <br>
-    </div>
-    <div class="col-md-12">
-      <button type="submit" class="btn btn-dark">Submit</button>
-     </div>  
-    </form>
+    <div class="container mt-5">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required />
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required />
+        </div>
+        <div class="col-md-6">
+          <label for="gender" class="form-label" required>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" />Male
+          <input type="radio" id="female" name="gender" value="female" />Female
+          <input type="radio" id="other" name="gender" value="other" />Other
+        </div>
+        <div class="col-md-6">
+          <label for="interestedIn" class="form-label" required
+            >Interested In:</label
+          >
+          <input type="radio" id="male" name="gender" value="male" />Male
+          <input type="radio" id="female" name="gender" value="female" />Female
+          <input type="radio" id="other" name="gender" value="other" />Other
+        </div>
+        <div class="col-md-6">
+          <label for="dob" class="form-label">Date Of Birth:</label>
+          <input type="Date" class="form-control" id="dob" name="dob" />
+        </div>
+        <div class="col-md-6">
+          <label for="ethnicity" class="form-label" required>Ethnicity:</label>
+          <select name="ethnicity" class="form-control" id="ethnicity">
+            <option value=" ">Select your ethnicity:</option>
+            <option value="White">White</option>
+            <option value="Black">Black, African American</option>
+            <option value="Hispanic">
+              Hispanic, Latino, or Spanish origin
+            </option>
+            <option value="American Indian">
+              American Indian or Alaska Native
+            </option>
+            <option value="Asian">Asian</option>
+            <option value="Native Hawaiian">
+              Native Hawaiian or Other Pacific Islander
+            </option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="city" class="form-label">City:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="city"
+            name="city"
+            maxlength="20"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="state" class="form-label">State:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="state"
+            name="state"
+            required
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="hobby" class="form-label">Hobby:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="hobby"
+            name="hobby"
+            maxlength="20"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="Occupation" class="form-label">Occupation:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Occupation"
+            name="Occupation"
+            maxlength="20"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="myLabel" class="form-label" required>My Label:</label>
+          <select name="myLabel" class="form-control" id="myLabel">
+            <option value=" ">Select your label:</option>
+            <option value="JavaScript King">JavaScript King / Queen</option>
 
-  </div>
+            <option value="CSS PRINCE">CSS Prince / Princess</option>
 
-  <div style="font-family:'Open Sans';" class="w-100 text-center p-2">
-      
-    Made by <b>( Group 3</b> <a href="https://github.com/adrianbaltag/LoveScript" target="_blank">| Github</a> )
-            </div>
+            <option value="SCRUM MAGE">Scrum Mage</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="specialization" class="form-label">Specialization:</label
+          ><br />
+          <input
+            type="checkbox"
+            class="specialization"
+            id="cs"
+            name="specialization[]"
+            value="Computer Science"
+          />Computer Science<br />
+          <input
+            type="checkbox"
+            class="specialization"
+            id="it"
+            name="specialization[]"
+            value="Information Technology"
+          />Information Technology<br />
+          <input
+            type="checkbox"
+            class="specialization"
+            id="ca"
+            name="specialization[]"
+            value="Computer Architecture"
+          />Computer Architecture<br />
+          <input
+            type="checkbox"
+            class="specialization"
+            id="uiux"
+            name="specialization[]"
+            value="UI UX"
+          />UI/UX<br />
+        </div>
+        <div class="col-md-12">
+          <label for="aboutMe" class="form-label">About me:</label>
+          <textarea
+            class="form-control"
+            id="aboutMe"
+            rows="5"
+            required
+          ></textarea>
+          <br />
+        </div>
+        <div class="col-md-6">
+          <label for="img" class="form-label">Profile Picture:</label>
+          <input type="file" id="img" name="img" accept="image/*" />
+          <input type="submit" class="upload-img" />
+          <br />
+          <br />
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-dark">Create profile</button>
+        </div>
+      </form>
+    </div>
 
-    
+    <div style="font-family: 'Open Sans'" class="w-100 text-center p-2 us">
+      Made by <b>( Group 3 )</b>
+      <a href="https://github.com/adrianbaltag/LoveScript" target="_blank"
+        >| Github</a
+      >
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
