@@ -157,7 +157,7 @@ function matchWithRegEx(regEx, field, message) {
     return false;
   }
 }
-// login btn NOT WORKING PROPERLY
+// login btn  WORKING PROPERLY
 document.getElementById("myBtn").onclick = function () {
   if (validateFirstName() === true && validatePassword() === true) {
     location.href = "profile.html";
@@ -165,3 +165,9 @@ document.getElementById("myBtn").onclick = function () {
     return false;
   }
 };
+
+// signup btn
+const changePg = document.getElementById("changePg");
+function myFunction() {
+  location.href = "signup.html";
+}
