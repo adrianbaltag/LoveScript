@@ -160,7 +160,7 @@ function matchWithRegEx(regEx, field, message) {
 // login btn  WORKING PROPERLY
 document.getElementById("myBtn").onclick = function () {
   if (validateFirstName() === true && validatePassword() === true) {
-    location.href = "profile.html";
+    location.href = "index/profile.html";
   } else {
     return false;
   }
