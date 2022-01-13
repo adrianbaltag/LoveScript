@@ -96,7 +96,7 @@
           </div>
 
           <div class="col-12 col-md-4 d-flex justify-content-center">
-            <figure>
+            <figure id="jsQueen" onclick="change">
               <img
                 src="../img/match-img/woman1match640x427.jpg"
                 alt="image of a woman"
@@ -135,5 +135,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.getElementById("jsQueen").addEventListener("click", () => {
+        window.location.href = "http://127.0.0.1:5502/index/profile.html";
+      });
+    </script>
   </body>
 </html>
