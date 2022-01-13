@@ -173,8 +173,12 @@ figure {
   }
 }
 
-/* @media only screen and (max-width: 768px) {
-} */
+@media only screen and (max-width: 768px) {
+  .us {
+    color: #f0e6e8;
+    margin-top: -1em !important;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .nav-link {
@@ -186,16 +190,16 @@ figure {
   }
   .us {
     color: #f0e6e8;
-    margin-top: 12em;
+    margin-top: 0.5em !important;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .us {
     color: #f0e6e8;
     margin-top: 15em;
   }
-}
+} */
 
 @media only screen and (min-width: 1200px) {
   .par-box {
@@ -216,6 +220,6 @@ figure {
   }
   .us {
     color: #f0e6e8;
-    margin-top: 14em;
+    margin-top: 1em;
   }
 }
