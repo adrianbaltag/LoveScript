@@ -169,5 +169,5 @@ document.getElementById("myBtn").onclick = function () {
 // signup btn
 // document.getElementById("changePg");
 function myFunction() {
-  location.href = "signup.html";
+  location.href = "index/signup.html";
 }
